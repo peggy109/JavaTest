@@ -3,6 +3,7 @@ import javax.swing.*;
 
 public class MyOvalPanel extends JPanel{
     public void paintComponent(Graphics g) {
+        System.out.println("g="+g);
         g.fillRect(0, 0, this.getWidth(), this.getHeight());
         int red = (int)(Math.random() * 255);
         int green = (int)(Math.random() * 255);
