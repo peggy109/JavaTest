@@ -1,7 +1,7 @@
 import java.awt.*;
 import javax.swing.*;
 
-public class MyOvalGradientPanel extends JPanel{
+public class MyOvalGradientPanel extends JPanel {
     public void paintComponent(Graphics g) {
         System.out.println("g="+g);
         g.fillRect(0, 0, this.getWidth(), this.getHeight());
